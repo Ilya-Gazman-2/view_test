@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coolFragment">
+
+    <fragment
+        android:id="@+id/coolFragment"
+        android:name="com.example.viewtest.CoolFragment"
+        android:label="CoolFragment"
+        tools:layout="@layout/cool_layout" />
+    <action
+        android:id="@+id/action_global_coolFragment"
+        app:popUpTo="@id/coolFragment"
+        app:popUpToInclusive="true"
+        app:destination="@id/coolFragment" />
+</navigation>

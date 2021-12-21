@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewTest</string>
+    <string name="refresh_log">Refresh log</string>
+    <string name="navigate">Navigate</string>
+    <string name="lights_off">Lights Off</string>
+    <string name="lights_on">Lights On</string>
+</resources>
